@@ -52,13 +52,14 @@
   Графика в python, динамическое изменение <br/>
   Отложенное обновление (after)  <br/>
   Массив изменяется прямо на глазах (раз в 1 секунду)<br/>
-  После полной сортировки загарается зеленым цветом <br/>
+  После полной сортировки загарается зеленым цветом <br/> <br/>
   
+  <pre>buton.state(["disabled"])</pre> Замораживает элемент окна (нельзя на него нажать)
 </p>
 <b>Используемые объекты:</b>
-<p>
-  after, columnconfigure, rowconfigure, Frame, tkinter (ttk)
-</p>
+<pre>
+  after, buton.state(["disabled"]), columnconfigure, rowconfigure, Frame, tkinter (ttk)
+</pre>
 
 <hr />
 
